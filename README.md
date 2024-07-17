@@ -1,9 +1,9 @@
 # terraform-vpc-batch4
 
 ```hcl
-module "vpc" {
-    source = "kaizenacademy/vpcbatch4/aws"
-    version = "0.0.2
+module "batch4" {
+    source = "kaizenacademy/batch4/vpc"
+    version = "2.0.0"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
     ip_on_launch = true
